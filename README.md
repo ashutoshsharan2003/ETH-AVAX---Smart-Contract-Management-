@@ -84,19 +84,16 @@ contract CryptoTrader {
     Crypto storage crypto = cryptos[name];
     uint256 totalPrice = crypto.price * shares;
     require(msg.value >= totalPrice, "Insufficient funds");
-    // Simulate buying logic (e.g., update user balance in a separate contract)
   }
 
   // Function to simulate selling crypto 
   function sellCrypto(string memory name) view  public {
-    require(cryptoExists(name), "Crypto does not exist");
-    // Simulate selling logic (e.g., update user balance and transfer funds)
+    require(cryptoExists(name), "Crypto does not exist"); 
   }
 
   // Modifier to restrict functions to the contract owner
   modifier onlyOwner() {
     require(msg.sender == owner, "Only owner can perform this action");
-    _; // Code to be executed after the modifier check
   }
 }
 ````
