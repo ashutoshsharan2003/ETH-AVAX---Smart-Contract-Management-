@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoTrader</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <h1>CryptoTrader</h1>
+  <div id="account"></div>
+  <div>
+    <h2>Add Cryptocurrency</h2>
+    <input type="text" id="addName" placeholder="Name">
+    <input type="number" id="addPrice" placeholder="Price in Wei">
+    <button onclick="addCrypto()">Add Crypto</button>
+  </div>
+  <div>
+    <h2>Update Cryptocurrency Price</h2>
+    <input type="text" id="updateName" placeholder="Name">
+    <input type="number" id="updatePrice" placeholder="Price in Wei">
+    <button onclick="updateCryptoPrice()">Update Price</button>
+  </div>
+  <div>
+    <h2>Buy Cryptocurrency</h2>
+    <input type="text" id="buyName" placeholder="Name">
+    <input type="number" id="buyShares" placeholder="Shares">
+    <input type="number" id="buyAmount" placeholder="Amount in Wei">
+    <button onclick="buyCrypto()">Buy</button>
+  </div>
+  <div>
+    <h2>Sell Cryptocurrency</h2>
+    <input type="text" id="sellName" placeholder="Name">
+    <button onclick="sellCrypto()">Sell</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
