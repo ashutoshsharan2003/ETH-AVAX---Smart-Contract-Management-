@@ -105,5 +105,6 @@ contract CryptoTrader {
 Ashutosh Sharan 
 (https://www.linkedin.com/in/ashutosh-sharan-177630249/)
 
-####### License
+License
+
 This Cryptotrading is licensed under the MIT License
