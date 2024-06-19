@@ -55,6 +55,6 @@ and paste this for the value of contractABI. 5) Now open index.html. 6) in metam
 Ashutosh Sharan 
 (https://www.linkedin.com/in/ashutosh-sharan-177630249/)
 
-####### License
+ License
 
 This Cryptotrading is licensed under the MIT License
